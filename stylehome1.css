@@ -1,0 +1,331 @@
+@font-face {
+  font-family: "Sriracha";
+  src: url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+}
+#alertmsg {
+  display: none;
+}
+body {
+  overflow-x: hidden;
+  /* position: absolute; */
+  margin: 0;
+  padding: 0;
+  font-family: "Sriracha";
+  background-color: purple;
+}
+
+.header0 {
+  width: 100%;
+  height: 45vh;
+  background-color: rgb(114, 71, 114);
+  z-index: -1;
+  color: white;
+}
+.header0 #welcome {
+  font-family: "Poppins";
+  margin: 0 0 0 20px;
+}
+
+.header0 .joinbtn {
+  margin: 30px 0 0 0;
+  width: 100%;
+  /* background-color: orange; */
+  display: flex;
+}
+.header0 #joina {
+  margin: 0 auto;
+  width: 40%;
+  background-color: black;
+}
+.header0 button {
+  /* width: 40%; */
+  width: 100%;
+  margin: 0 auto;
+  height: 45px;
+  background-color: orange;
+  border: 2px solid white;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 16px;
+}
+.header1 {
+  width: 100%;
+  height: 74px;
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.header1 h2 {
+  text-align: start;
+}
+.header1 .spanheader1 {
+  width: 8%;
+}
+.header1 ul {
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  align-items: center;
+  align-content: center;
+  /* background: yellow; */
+  justify-content: space-between;
+  text-align: center;
+}
+.header1 ul li {
+  list-style-type: none;
+  text-align: center;
+}
+.header1 ul li a {
+  text-decoration: none;
+  margin-right: 30px;
+  text-align: center;
+}
+.header1 ul li a button {
+  width: 70px;
+  font-size: 18px;
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.header1 ul li a #btn1 {
+  width: 85px;
+  height: 30px;
+  border: 2px solid white;
+}
+#checkbox {
+  opacity: 0;
+}
+
+.btn {
+  z-index: 1;
+  margin: 275px auto;
+  width: 33%;
+}
+.btn #playbtn {
+  margin: 0 auto;
+  background-color: aqua;
+}
+.btn #playbtn button {
+  background-color: blue;
+  width: 100%;
+  height: 57px;
+  border: none;
+  text-align: center;
+  margin: 0 auto;
+  justify-content: center;
+  font-family: "Poppins";
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 606px) {
+  body {
+    position: relative;
+    overflow-x: hidden;
+  }
+  .header1 {
+    background-color: ;
+    z-index: -1;
+  }
+
+  .menu-toggle {
+    margin-left: 150px;
+    display: none;
+    flex-direction: column;
+    height: 18px;
+    justify-content: space-between;
+    position: absolute;
+  }
+
+  .menu-toggle input {
+    position: absolute;
+    width: 40px;
+    height: 28px;
+    left: -6px;
+    top: -5px;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .menu-toggle span {
+    display: block;
+    width: 28px;
+    height: 3px;
+    background-color: white;
+    border-radius: 3px;
+    transition: all 0.5s;
+  }
+
+  /* Hamburger Menu Animation */
+
+  .menu-toggle span:nth-child(2) {
+    transform-origin: 0 0;
+  }
+  .menu-toggle span:nth-child(4) {
+    transform-origin: 0 0;
+  }
+  .menu-toggle input:checked ~ span:nth-child(2) {
+    transform: rotate(45deg) translate(-2px, -1px);
+  }
+  .menu-toggle input:checked ~ span:nth-child(4) {
+    transform: rotate(-45deg) translate(-2px, 0);
+  }
+  .menu-toggle input:checked ~ span:nth-child(3) {
+    transform: scale(0) translate(-1px, 0);
+  }
+
+  .header1 ul {
+    margin: 0;
+    position: absolute;
+    right: 0;
+    flex-direction: column;
+    height: 100vh;
+    background-color: purple;
+    top: 0;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: -1;
+    width: 60%;
+    display: none;
+    transition: 1s;
+    font-size: 25px;
+    z-index: 0;
+    border: 2px solid white;
+  }
+  .menu-toggle {
+    transition: all 1s;
+    display: flex;
+  }
+  .header1 ul.slide {
+    transition: all 1s;
+    transform: translateX(0%);
+    display: flex;
+  }
+}
+
+.header0 {
+  /* background: url("../assets/header.jpg"); */
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+}
+.container {
+  /* box-shadow: 11px 11px 48px -2px rgba(0, 0, 0, 1); */
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  /* background-color: black; */
+  margin: 30px auto;
+}
+.content {
+  box-shadow: 11px 11px 24px -8px rgba(0, 0, 0, 1);
+  width: 100%;
+  /* border: 2px solid black; */
+  margin: 0 auto 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  height: 170px;
+}
+
+.content h3 {
+  box-sizing: border-box;
+  padding-left: 7px;
+  margin: 3px;
+  font-family: "Poppins";
+  color: white;
+  background-color: ;
+}
+.content button {
+  position: relative;
+  float: right;
+  margin: 7px;
+  width: 84px;
+  height: 33px;
+  background-color: purple;
+  color: white;
+  border: 2px solid white;
+  font-family: "Poppins";
+  z-index: 0;
+}
+.header1 ul {
+  z-index: 1;
+}
+.menu-toggle {
+  z-index: 2;
+}
+/* CONTENT */
+.content:nth-child(1) {
+  background: url("../assets/imgquiz.jpg");
+  background-position: 100%;
+  background-size: cover;
+}
+.content:nth-child(2) {
+  background: url("../assets/imgquotes3.jpg");
+  background-position: 100%;
+  background-size: cover;
+}
+.content:nth-child(3) {
+  background: url("../assets/imgpicker.jpg");
+
+  background-position: 50% 5%;
+  background-size: cover;
+}
+.content:nth-child(4) {
+  background: url("../assets/love1.jpg");
+  background-position: 100%;
+  background-size: cover;
+}
+.content:nth-child(5) {
+  background: url("../assets/.jpg");
+  background-position: 50% 0%;
+  background-size: cover;
+}
+.content:nth-child(6) {
+  /* background-color: black; */
+  background: url("../assets/.jpg");
+  background-position: 50% 0%;
+  background-size: cover;
+}
+.content:nth-child(7) {
+  /* background-color: black; */
+  background: url("../assets/.jpg");
+  background-position: 50% 0%;
+  background-size: cover;
+}
+.footer {
+  font-family: "Poppins";
+  margin: 0;
+  text-align: center;
+  color: white;
+}
+.footer h2 {
+  font-size: 14px;
+  margin: 0;
+  margin-bottom: 5px;
+}
+.footer h3 {
+  font-size: 15px;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 606px) {
+  .body {
+    display: none;
+  }
+  #alertmsg {
+    display: block;
+    font-family: "Arial";
+    color: white;
+    font-size: 40px;
+    margin: 30px;
+  }
+}

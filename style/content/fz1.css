@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+  background-color: darkred;
+}
+.header0 {
+  height: 75px;
+}
+.maincontent {
+  margin: 8px auto;
+  padding: 0;
+  color: white;
+  width: 100%;
+  background-color: darkred;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.maincontent #hhh1 {
+  text-align: center;
+  font-size: 25px;
+  margin: 35px 0 10px 0;
+}
+.maincontent #hhh2 {
+  margin: 1px;
+  font-size: 17px;
+}
+.maincontent form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  align-items: center;
+}
+.maincontent form input {
+  margin: 10px 0 0 0;
+  font-size: 21px;
+  width: 100%;
+}
+.maincontent form #btn {
+  width: 50%;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  background-color: orange;
+  text-align: center;
+  border: none;
+  color: black;
+  font-family: "poppins";
+  font-weight: 500;
+  height: 30px;
+}
+.maincontent #nama1 {
+  font-style: italic;
+}
+.maincontent #nama2 {
+  font-style: italic;
+}
+.maincontent .result {
+  background-image: url("../../assets/content/fc/imgfc.jpg");
+  background-position: 10%;
+  background-size: cover;
+  /* background-color: black; */
+  width: 80%;
+  text-align: center;
+  height: 150px;
+  margin: 5px 0 15px 0;
+}
+.maincontent .result #resultTag {
+  margin: 5px 0 0 0;
+  font-size: 22px;
+}
+.maincontent .result #resultVal {
+  margin: 24px 0 20px 0;
+  font-size: 32px;
+}
+.alertDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.alertDiv #alert {
+  margin: 10px 0 0 0;
+}
+.alertDiv #alert2 {
+  margin: 20px 0 0 0;
+  font-size: 16px;
+}
+.alertDiv #alert3 {
+  margin: 20px 0 0 0;
+}

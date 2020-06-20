@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"
+      name="viewport"
+    />
+    <title></title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../style/gen/stylegeneral.css" />
+    <link rel="stylesheet" href="../../style/gen/stylerespmenu.css" />
+    <link rel="stylesheet" href="../../style/gen/stylefooter.css" />
+    <!-- <link rel="stylesheet" href="../../style/gen/styleheader27vh.css" /> -->
+    <!-- <link rel="stylesheet" href="../../style/gen/stylecontainer.css" /> -->
+    <link rel="stylesheet" href="../../style/header.css" />
+    <link rel="stylesheet" href="../../style/content/picker/rolldice.css" />
+  </head>
+  <body>
+    <h1 id="alertmsg">Please open in mobile</h1>
+    <div class="body">
+      <div class="header0">
+        <div class="header1">
+          <a id="back" href="../picker.html"><</a>
+          <h2 style="font-size: 16px;" id="welcome">Take Random Number</h2>
+          <span class="spanheader1"></span>
+          <ul>
+            <li>
+              <a href="../../home.html"><button>Home</button></a>
+            </li>
+            <li>
+              <a href="../../about.html"><button>About</button></a>
+            </li>
+            <li>
+              <a href="../../contact.html"><button>Contact</button></a>
+            </li>
+            <li>
+              <a href=""><button>Register</button></a>
+            </li>
+            <li>
+              <a href=""><button id="btn1">Login</button></a>
+            </li>
+          </ul>
+          <div class="menu-toggle">
+            <input id="checkbox" type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="dice">
+          <h1 id="dicenumber1"></h1>
+          <span id="span" class="hide"></span>
+          <h1 id="dicenumber2" class="hide"></h1>
+        </div>
+        <div class="choice">
+          <div class="from">
+            <label for="from">From</label>
+            <input name="from" id="from" type="text" value="1" />
+          </div>
+          <div class="till">
+            <label for="till">Until</label>
+            <input name="till" id="till" type="text" value="10" />
+          </div>
+        </div>
+        <div class="roll">
+          <button onclick="take()">Take Random</button>
+        </div>
+      </div>
+    </div>
+    <script src="../../script/menu.js"></script>
+    <script src="../../script/header.js"></script>
+    <script src="../../script/content/picker/takenumber.js"></script>
+  </body>
+</html>

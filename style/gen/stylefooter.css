@@ -1,0 +1,16 @@
+.footer {
+  font-family: "Poppins";
+  margin: 0;
+  text-align: center;
+  color: white;
+}
+.footer h2 {
+  font-size: 14px;
+  margin: 0;
+  margin-bottom: 5px;
+}
+.footer h3 {
+  font-size: 15px;
+  margin: 0;
+  margin-bottom: 30px;
+}

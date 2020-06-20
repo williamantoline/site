@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: purple;
+  color: white;
+  font-family: "Poppins";
+}
+
+.header0 {
+  height: 75px;
+}
+.title {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: "Acme";
+}
+.title h3 {
+  margin: 0;
+  font-size: 31px;
+}
+.title #theme {
+  margin: 15px 0 0 0;
+  font-size: 20px;
+}
+.tema {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.tema h4 {
+  font-size: 21px;
+}
+.tema button {
+  margin: 10px;
+  height: 50px;
+  width: 50px;
+  font-size: 28px;
+  color: white;
+  background: none;
+  border: none;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.cover {
+  height: 340px;
+
+  width: 100%;
+}
+.container {
+  box-shadow: 11px 11px 48px -2px rgba(0, 0, 0, 1);
+  background-color: white;
+  color: purple;
+  width: 75%;
+  margin: 20px auto;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  text-align: center;
+}
+.nextprev {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 20px;
+}
+.nextprev button {
+  width: 40px;
+  height: 60px;
+  font-size: 30px;
+  background: none;
+  border: none;
+  color: white;
+}
+.user {
+  width: 80%;
+  /* background-color: yellow; */
+  margin: 60px auto;
+  text-align: center;
+}
+.user h4 {
+  margin: 7px;
+  font-size: 18px;
+}
+.user a {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  /* margin: 7px; */
+}
+.user h5 {
+  font-size: 14px;
+  margin: 7px;
+}
+/* CUSTOM */
+.header1 #back {
+  /* background-color: white; */
+  color: white;
+  margin: 0 -110px;
+  width: 50px;
+  height: 26px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 39px;
+  font-weight: 1000;
+  font-family: "Poppins";
+}

@@ -1,0 +1,75 @@
+/* ul {
+  background: blue;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+}
+ul li {
+  list-style: none;
+  margin: 20px;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+}
+ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 19px;
+}
+#homehome {
+  font-size: 25px;
+}
+#homelist {
+  background: green;
+} */
+.header0 {
+  height: 180px;
+}
+ul {
+  width: 70%;
+  /* background: yellow; */
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 100px;
+}
+ul li {
+  list-style: none;
+  margin: 0;
+  width: 100%;
+}
+ul li a {
+  text-decoration: none;
+}
+ul li a button {
+  width: 100%;
+  height: 50px;
+  margin-top: 15px;
+  background: none;
+  border: none;
+  font-size: 22px;
+  color: white;
+}
+#homehome {
+  width: 80%;
+  margin: 0 auto;
+}
+#homehome button {
+  font-size: 20px;
+  background: green;
+  margin-bottom: 40px;
+}
+#regreg {
+  width: 75%;
+  margin: 0 auto;
+}
+#regreg button {
+  align-self: center;
+  border: 3px solid blue;
+}

@@ -1,0 +1,90 @@
+* {
+  font-family: "Poppins";
+}
+.header0 {
+  width: 100%;
+  background-color: purple;
+  z-index: 1;
+  color: white;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+  background-color: purple;
+}
+.header0 {
+  height: 75px;
+}
+.container {
+  box-shadow: 11px 11px 24px -8px rgba(0, 0, 0, 1);
+  background-color: white;
+  width: 80%;
+  height: 400px;
+  margin: 120px auto;
+  justify-content: center;
+  border-radius: 12px;
+  color: purple;
+}
+.dice {
+  /* background-color: blue; */
+  width: 95%;
+  height: 200px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dice h1 {
+  font-size: 120px;
+  text-align: center;
+}
+.dice span {
+  width: 50px;
+}
+.hide {
+  display: none;
+}
+.choice {
+  /* background-color: red; */
+  margin: 30px auto;
+  width: 80%;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+.choice .from,
+.choice .till {
+  text-align: center;
+  font-weight: 500;
+}
+.choice input {
+  width: 80px;
+  background: none;
+  border: 2px solid purple;
+  font-size: 27px;
+  font-weight: 700;
+  text-align: center;
+}
+.roll {
+  width: 50%;
+  background-color: orange;
+  margin: 40px auto;
+  display: flex;
+  justify-content: center;
+}
+.roll button {
+  width: 90%;
+  height: 40px;
+  background: none;
+  border: 2px solid orange;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 600;
+}
+.choice button:focus {
+  background-color: purple;
+  color: white;
+}

@@ -1,0 +1,48 @@
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 102px;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-container {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+.header {
+  padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;
+}
+
+.content {
+  padding: 0px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  -webkit-box-shadow: 3px 4px 19px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 4px 19px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 4px 19px 1px rgba(0, 0, 0, 0.75);
+}
+
+.sticky + .content {
+  padding-top: 102px;
+  -webkit-box-shadow: 3px 4px 19px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 4px 19px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 4px 19px 1px rgba(0, 0, 0, 0.75);
+}
+.header1 {
+  z-index: 2;
+  background-color: purple;
+}

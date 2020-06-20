@@ -1,0 +1,37 @@
+.content:nth-child(1) {
+  background: url("assets/home/quiz.jpg");
+  background-position: 100%;
+  background-size: cover;
+}
+.content:nth-child(2) {
+  background: url("assets/home/math.jpg");
+  background-position: 100%;
+  background-size: cover;
+}
+.content:nth-child(3) {
+  background: url("assets/home/quotes.jpg");
+  background-position: 10% 35%;
+  background-size: cover;
+}
+.content:nth-child(4) {
+  background: url("assets/home/picker.jpg");
+  background-position: 10% 10%;
+  background-size: cover;
+}
+.content:nth-child(5) {
+  background: url("assets/home/fc.jpg");
+  background-position: 100% 75%;
+  background-size: cover;
+}
+.content:nth-child(6) {
+  background-color: black;
+  /* background: url("../assets/.jpg"); */
+  background-position: 50% 0%;
+  background-size: cover;
+}
+.content:nth-child(7) {
+  /* background-color: black; */
+  background: url("../assets/.jpg");
+  background-position: 50% 0%;
+  background-size: cover;
+}

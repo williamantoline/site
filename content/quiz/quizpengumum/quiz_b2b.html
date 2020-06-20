@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"
+      name="viewport"
+    />
+    <title>Quiz</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../../style/gen/stylegeneral.css" />
+    <link rel="stylesheet" href="../../../style/gen/stylerespmenu.css" />
+    <link rel="stylesheet" href="../../../style/gen/stylefooter.css" />
+    <link rel="stylesheet" href="../../../style/gen/styleheader27vh.css" />
+    <link rel="stylesheet" href="../../../style/gen/stylecontainer.css" />
+    <link rel="stylesheet" href="../../../style/header.css" />
+    <link rel="stylesheet" href="../../../style/content/quiz.css" />
+    <link
+      rel="stylesheet"
+      href="../../../style/content/quiz/quiz_b/quizGame.css"
+    />
+  </head>
+  <body>
+    <h1 id="alertmsg">Please open in mobile</h1>
+    <div class="body">
+      <div class="header0">
+        <div id="myHeader" class="header1">
+          <a id="back" href="quiz_b1.html"><</a>
+          <h2 id="welcome">Level 1</h2>
+          <span class="spanheader1"></span>
+          <ul>
+            <li>
+              <a href="../../../home.html"><button>Home</button></a>
+            </li>
+            <li>
+              <a href="../../../about.html"><button>About</button></a>
+            </li>
+            <li>
+              <a href="../../../contact.html"><button>Contact</button></a>
+            </li>
+            <li>
+              <a href=""><button>Register</button></a>
+            </li>
+            <li>
+              <a href=""><button id="btn1">Login</button></a>
+            </li>
+          </ul>
+          <div class="menu-toggle">
+            <input id="checkbox" type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <!-- <h3 id="ket">Alat-alat sederhana untuk menentukan pilihan, seperti mengambil angka dadu, mengambil angka acak dalam batas tertenu, membuat team secara acak, dan lain-lain.</h3> -->
+      </div>
+      <div id="start">Start Quiz!</div>
+      <div id="container" class="hide" style="display: none;">
+        <div id="quiz">
+          <div id="qImg"></div>
+          <div id="question"></div>
+          <div id="choices">
+            <div
+              class="choice"
+              id="a"
+              style="background: none;"
+              onclick="checkAnswer('a')"
+            ></div>
+            <div
+              class="choice"
+              id="b"
+              style="background: none;"
+              onclick="checkAnswer('b')"
+            ></div>
+            <div
+              class="choice"
+              id="c"
+              style="background: none;"
+              onclick="checkAnswer('c')"
+            ></div>
+            <div
+              class="choice"
+              id="d"
+              style="background: none;"
+              onclick="checkAnswer('d')"
+            ></div>
+          </div>
+          <div id="timer">
+            <div id="counter"></div>
+            <div class="progr">
+              <div id="btimeGauge"></div>
+              <div id="timeGauge"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="scoreContainer1" style="display: none;">
+        <div id="labelscore">Score:</div>
+        <div id="scoreContainer" style="display: none;"></div>
+        <div id="tryagain" style="display: none;">
+          <button onclick="startQuiz()">Try Again</button>
+        </div>
+        <div id="next" style="display: none;">
+          <a href=""><button>Next</button></a>
+        </div>
+      </div>
+    </div>
+
+    <script src="../../../script/menu.js"></script>
+    <script src="../../../script/header.js"></script>
+    <!-- <script src="../../../script/content/quiz/quiz_a/bs.js"></script> -->
+    <!-- <script src="../../../script/content/quiz/quiz_a/quizbs.js"></script> -->
+    <script src="../../../script/content/quiz/quiz_b/b2b.js"></script>
+    <script src="../../../script/content/quiz/quiznoimg.js"></script>
+  </body>
+</html>

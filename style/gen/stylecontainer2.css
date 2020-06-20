@@ -1,0 +1,72 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 30px auto;
+}
+.header0 {
+  background: url("../../assets/underconstruct.jpg");
+  background-size: cover;
+  margin-top: 0px;
+}
+.content {
+  -webkit-box-shadow: 9px 9px 23px -6px rgba(0, 0, 0, 0.91);
+  -moz-box-shadow: 9px 9px 23px -6px rgba(0, 0, 0, 0.91);
+  box-shadow: 9px 9px 23px -6px rgba(0, 0, 0, 0.91);
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  height: 66px;
+  border: 1px solid black;
+  border-radius: 17px;
+  margin-bottom: 20px;
+}
+.content h3 {
+  display: none;
+  box-sizing: border-box;
+  padding-left: 7px;
+  margin: 3px;
+  font-family: "Poppins";
+  color: white;
+}
+.content button {
+  display: none;
+  position: relative;
+  float: right;
+  margin: 7px;
+  width: 84px;
+  height: 33px;
+  background-color: purple;
+  color: white;
+  border: 2px solid white;
+  font-family: "Poppins";
+  z-index: 0;
+}
+#spanctc {
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+.container #ket {
+  margin: 0;
+  text-decoration: none;
+  color: white;
+}
+.container #div {
+  margin: 0;
+  color: white;
+  text-decoration: none;
+}
+.content p {
+  margin: 9px;
+  font-size: 18px;
+  font-size: "Arial";
+}
+.container #daftarisi h4 {
+  text-align: center;
+  text-decoration: none;
+  color: cyan;
+}

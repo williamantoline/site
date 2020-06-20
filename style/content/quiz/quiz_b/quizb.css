@@ -1,0 +1,46 @@
+.content:nth-child(1) {
+  background: url("../../../../assets/content/quiz/flag.jpg");
+  background-position: 100%;
+  background-size: cover;
+}
+.content:nth-child(2) {
+  background: url("../../../../assets/content/quiz/capital.jpg");
+  background-position: 100% 0%;
+  background-size: cover;
+}
+.content:nth-child(3) {
+  background: url("../../../../assets/content/quiz/capital.jpg");
+  background-position: 10% 35%;
+  background-size: cover;
+}
+.content:nth-child(4) {
+  background: url("../../../../assets/content/quiz/currency.jpg");
+  background-position: 10% 35%;
+  background-size: cover;
+}
+.content:nth-child(5) {
+  background: url("../../../../assets/underconstruct.jpg");
+  background-position: 80% 80%;
+  background-size: cover;
+}
+.content:nth-child(6) {
+  background: url("../../../../assets/underconstruct.jpg");
+  background-position: 80% 80%;
+  background-size: cover;
+}
+.content:nth-child(7) {
+  background: url("../../../../assets/underconstruct.jpg");
+  background-position: 80% 80%;
+  background-size: cover;
+}
+.content:nth-child(8) {
+  background: url("../../../../assets/underconstruct.jpg");
+  background-position: 80% 80%;
+  background-size: cover;
+}
+.container h3 {
+  height: 30px;
+  margin: 0;
+  background-color: black;
+  opacity: 0.8;
+}

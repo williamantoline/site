@@ -1,0 +1,41 @@
+.header0 {
+  width: 100%;
+  height: 31vh;
+  background-color: purple;
+  z-index: 1;
+  color: white;
+}
+.header0 #welcome {
+  font-family: "Poppins";
+  margin: 0 0 0 0;
+}
+.header0 #ket {
+  margin: 10px 14px 0 16px;
+  height: 160px;
+  font-size: 17px;
+  /* background-color: black; */
+  overflow: scroll;
+}
+
+.header0 .joinbtn {
+  margin: 30px 0 0 0;
+  width: 100%;
+  /* background-color: orange; */
+  display: flex;
+}
+.header0 #joina {
+  margin: 0 auto;
+  width: 40%;
+  background-color: black;
+}
+.header0 button {
+  /* width: 40%; */
+  width: 100%;
+  margin: 0 auto;
+  height: 45px;
+  background-color: orange;
+  border: 2px solid white;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 16px;
+}

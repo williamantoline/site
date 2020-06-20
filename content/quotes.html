@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"
+      name="viewport"
+    />
+    <title>Quotes Library</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../style/gen/stylegeneral.css" />
+    <link rel="stylesheet" href="../style/gen/stylerespmenu.css" />
+    <!-- <link rel="stylesheet" href="../style/gen/stylefooter.css" />
+    <link rel="stylesheet" href="../style/gen/styleheader27vh.css" />
+    <link rel="stylesheet" href="../style/gen/stylecontainer.css" /> -->
+    <link rel="stylesheet" href="../style/content/quotes.css">
+  </head>
+  <body>
+    <h1 id="alertmsg">Please open in mobile</h1>
+    <div class="body">
+      <div class="header0">
+        <div class="header1">
+          <a id="back" href="../home.html"><</a>
+          <span class="spanheader1"></span>
+          <ul>
+            <li>
+              <a href="../home.html"><button>Home</button></a>
+            </li>
+            <li>
+              <a href="../about.html"><button>About</button></a>
+            </li>
+            <li>
+              <a href="../contact.html"><button>Contact</button></a>
+            </li>
+            <li>
+              <a href=""><button disabled>Register</button></a>
+            </li>
+            <li>
+              <a href=""><button disabled id="btn1">Login</button></a>
+            </li>
+          </ul>
+          <div class="menu-toggle">
+            <input id="checkbox" type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div class="title">
+            <h3 class="titlelabel">Quotes Library</h3>
+            <h5 id="theme">Theme:</h5>
+            <div class="tema">
+              <button id="prev" onclick="prev1()">
+                <
+              </button>
+              <h4 id="titlename">Relationship</h4>
+              <button onclick="next1()" id="next">></button>
+            </div>
+          </div>
+      
+          <div class="content">
+            <!-- <button id="prev" onclick="prev()">
+              <
+            </button> -->
+            <div class="cover">
+              <div class="container">
+                <div class="quotescontent">
+                  <h4 id="quotescont">
+                    "Jangan rindu. Itu berat. Kamu gak akan kuat. Biar aku saja."
+                  </h4>
+                  <h5 id="author">Dilan 1990</h5>
+                </div>
+              </div>
+            </div>
+            <!-- <button onclick="next()" id="next">></button> -->
+            <!-- <div class="sender">
+              <h4 id="sender">Sender:</h4>
+              <h5 id="sendername">Clarissa</h5>
+            </div> -->
+            <!-- <div class="btn">
+                  <button id="prev">
+                      <</button> <button id="next">>
+                  </button>
+              </div> -->
+          </div>
+          <div class="nextprev">
+            <button id="prevbtn" onclick="prev()"><</button>
+            <button id="nextbtn" onclick="next()">></button>
+          </div>
+          <div class="user">
+            <h4>Ingin mengirim Quotes?</h4>
+            <a href="sendquotes.html">Klik disini</a>
+            <h5>(Coming soon)</h5>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <script src="../script/menu.js"></script>
+    <script src="../script/content/quotes/quotes.js"></script>
+    <script src="../script/content/quotes/script.js"></script>
+
+  </body>
+</html>

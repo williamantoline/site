@@ -1,0 +1,49 @@
+.content:nth-child(1) {
+  background: url("assets/home/quiz.jpg");
+  background-position: 100%;
+  background-size: cover;
+}
+.content:nth-child(2) {
+  background: url("assets/home/math.jpg");
+  background-position: 100%;
+  background-size: cover;
+}
+.content:nth-child(3) {
+  background: url("assets/home/quotes.jpg");
+  background-position: 10% 35%;
+  background-size: cover;
+}
+.content:nth-child(4) {
+  background: url("assets/home/picker.jpg");
+  background-position: 10% 10%;
+  background-size: cover;
+}
+.content:nth-child(5) {
+  background: url("assets/home/fz.jpg");
+  background-position: 100% 75%;
+  background-size: cover;
+}
+.content:nth-child(6) {
+  background: url("assets/underconstruct.jpg");
+  background-position: 50% 0%;
+  background-size: cover;
+}
+.content:nth-child(6) h3 {
+  background-color: black;
+  margin: 0;
+  opacity: 0.8;
+}
+.content:nth-child(7) {
+  /* background-color: black; */
+  background: url("../assets/.jpg");
+  background-position: 50% 0%;
+  background-size: cover;
+}
+/* CUSTOM */
+.header0 {
+  width: 100%;
+  height: 25vh;
+  background-color: purple;
+  z-index: 1;
+  color: white;
+}

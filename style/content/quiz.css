@@ -1,0 +1,26 @@
+.content:nth-child(1) {
+  background: url("../../assets/content/quiz/trueorfalse.jpg");
+  background-position: 30% 0%;
+  background-size: cover;
+}
+.content:nth-child(2) {
+  background: url("../../assets/content/quiz/pu.jpg");
+  background-position: 100% 0%;
+  background-size: cover;
+}
+.content:nth-child(3) {
+  background: url("../../assets/content/quiz/speedmath.jpg");
+  background-position: 10% 35%;
+  background-size: cover;
+}
+.content:nth-child(4) {
+  background: url("../../assets/underconstruct.jpg");
+  background-position: 80% 80%;
+  background-size: cover;
+}
+.container h3 {
+  height: 30px;
+  margin: 0;
+  background-color: black;
+  opacity: 0.8;
+}

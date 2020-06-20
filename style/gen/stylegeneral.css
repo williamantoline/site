@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+}
+#alertmsg {
+  display: none;
+}
+@media screen and (min-width: 606px) {
+  .body {
+    display: none;
+  }
+  #alertmsg {
+    display: block;
+    font-family: "Arial";
+    color: white;
+    font-size: 40px;
+    margin: 30px;
+  }
+}
+body {
+  background-color: purple;
+  margin: 0;
+  padding: 0;
+}

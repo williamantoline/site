@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"
+      name="viewport"
+    />
+    <title></title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../style/gen/stylegeneral.css" />
+    <link rel="stylesheet" href="../../style/gen/stylerespmenu.css" />
+    <link rel="stylesheet" href="../../style/gen/stylefooter.css" />
+    <link rel="stylesheet" href="../../style/gen/styleheader27vh.css" />
+    <link rel="stylesheet" href="../../style/gen/stylecontainer.css" />
+    <link rel="stylesheet" href="../../style/header.css" />
+    <link rel="stylesheet" href="../../style/content/picker/choice.css" />
+  </head>
+  <body>
+    <h1 id="alertmsg">Please open in mobile</h1>
+    <div class="body">
+      <div class="header0">
+        <div class="header1">
+          <a id="back" href="../picker.html"><</a>
+          <h2 style="font-size: 20px;" id="welcome">Choose Randomly</h2>
+          <span class="spanheader1"></span>
+          <ul>
+            <li>
+              <a href="../../home.html"><button>Home</button></a>
+            </li>
+            <li>
+              <a href="../../about.html"><button>About</button></a>
+            </li>
+            <li>
+              <a href="../../contact.html"><button>Contact</button></a>
+            </li>
+            <li>
+              <a href=""><button>Register</button></a>
+            </li>
+            <li>
+              <a href=""><button id="btn1">Login</button></a>
+            </li>
+          </ul>
+          <div class="menu-toggle">
+            <input id="checkbox" type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <h3 id="ket">
+          Alat untuk memilih salah satu dari beberapa pilihan.
+        </h3>
+      </div>
+      <div class="container">
+        <h3>Result:</h3>
+        <div class="result">
+          <h2 id="result">Dimas</h2>
+        </div>
+        <div class="form">
+          <div class="addrembtn">
+            <button class="addrem" onclick="addInput()" id="plusbtn">+</button>
+            <button class="addrem" onclick="remInput()" id="minbtn">-</button>
+          </div>
+          <form>
+            <input
+              id="inp1"
+              class="inp"
+              type="text"
+              value="Budi"
+              placeholder="Choice 1"
+            />
+            <input
+              id="inp2"
+              class="inp"
+              type="text"
+              value="Dimas"
+              placeholder="Choice 2"
+            />
+            <input
+              id="inp3"
+              class="inp hide"
+              type="text"
+              placeholder="Option 3"
+            />
+            <input
+              id="inp4"
+              class="inp hide"
+              type="text"
+              placeholder="Option 4"
+            />
+            <input
+              id="inp5"
+              class="inp hide"
+              type="text"
+              placeholder="Option 5"
+            />
+            <input
+              id="inp6"
+              class="inp hide"
+              type="text"
+              placeholder="Option 6"
+            />
+            <input
+              id="inp7"
+              class="inp hide"
+              type="text"
+              placeholder="Option 7"
+            />
+          </form>
+          <button id="takebtn" onclick="take()">Take Random</button>
+        </div>
+      </div>
+    </div>
+    <script src="../../script/menu.js"></script>
+    <script src="../../script/header.js"></script>
+    <script src="../../script/content/picker/choice.js"></script>
+  </body>
+</html>
